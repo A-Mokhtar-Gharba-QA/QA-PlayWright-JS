@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "valid login",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expectedUrl": "https://www.saucedemo.com/inventory.html"
+  },
+  {
+    "scenario": "locked out user",
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expectedError": "Sorry, this user has been locked out."
+  },
+  {
+    "scenario": "invalid username",
+    "username": "invalid_user",
+    "password": "secret_sauce",
+    "expectedError": "Username and password do not match"
+  },
+  {
+    "scenario": "invalid password",
+    "username": "standard_user",
+    "password": "wrong_pass",
+    "expectedError": "Username and password do not match"
+  },
+  {
+    "scenario": "empty username",
+    "username": "",
+    "password": "secret_sauce",
+    "expectedError": "Username is required"
+  },
+  {
+    "scenario": "empty password",
+    "username": "standard_user",
+    "password": "",
+    "expectedError": "Password is required"
+  }
+]
