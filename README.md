@@ -1,5 +1,8 @@
-# QA-PlayWright-JS
-End-to-end test automation framework using Playwright and JavaScript
+# QA Playwright JS Framework
+
+[![Playwright Tests](https://github.com/A-Mokhtar-Gharba-QA/QA-PlayWright-JS/actions/workflows/playwright.yml/badge.svg)](https://github.com/A-Mokhtar-Gharba-QA/QA-PlayWright-JS/actions)
+
+End-to-end test automation framework using Playwright and JavaScript.
 
 This sample project includes :
 01) Framework folder structure
