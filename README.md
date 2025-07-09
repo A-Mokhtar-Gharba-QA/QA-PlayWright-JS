@@ -15,4 +15,4 @@ This sample project includes :
 08) HTML Report with rich diagnostics
 09) Tests with Tags and/or Suites
 10) CI / GitHub Integration
-11) An intentionaly failed test case for demonstration
+11) An intentionally failed test case for demonstration
